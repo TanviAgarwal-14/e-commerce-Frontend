@@ -27,11 +27,11 @@ const ShopCategory = (props) => {
             }
         })}
       </div>
-        <div className="shopcategory-laodmore">
+        {/* <div className="shopcategory-laodmore">
             Explore More
-        </div>
+        </div> */}
     </div>
   )
 }
 
-export default ShopCategory
+export default ShopCategory;  

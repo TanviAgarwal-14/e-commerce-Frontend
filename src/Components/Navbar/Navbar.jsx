@@ -17,7 +17,6 @@ const Navbar = () => {
     e.target.classList.toggle('open');
   }
 
-
   return (
     <div className='navbar'>
       <div className="nav-logo">

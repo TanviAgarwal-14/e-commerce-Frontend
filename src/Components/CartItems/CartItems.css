@@ -148,12 +148,49 @@
 }
 @media (max-width: 500px) {
     .cartitems-format-main {
-      display: none;
-      grid-template-columns: 0.5fr 3fr 0.5fr;
-      gap: 10px;
+        display: none;  /* This hides the main format; consider removing this if you want to show items */
     }
-  
+
     .cartitems-format {
-      display: grid;
+        display: grid;  /* Ensure this is displayed */
+        grid-template-columns: 0.5fr 3fr 0.5fr; /* Adjust columns for mobile view */
+        gap: 10px;
+    }
+
+    .cartitems-remove-icon {
+        width: 15px;  /* Keep the remove icon size consistent */
+        margin: auto;  /* Center the remove icon */
+    }
+
+    .cartitems-quantity {
+        width: 40px;  /* Smaller width for mobile */
+        height: 30px; /* Smaller height for mobile */
+    }
+
+    .cartitems-down {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        margin: 30px 0; /* Reduce margin for mobile */
+        gap: 20px; /* Add gap for spacing */
+    }
+
+    .cartitems-total button {
+        width: 100%;  /* Full width button for mobile */
+        height: 40px; /* Adjust height for mobile */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .cartitems-promobox {
+        width: 100%;  /* Full width for mobile */
+        padding: 0;   /* Remove padding for mobile */
+    }
+
+    .cartitems-promobox input {
+        width: 90%;  /* Adjust input width for mobile */
+        height: 40px; /* Adjust height for mobile */
+    }
+
+    .cartitems-promobox button {
+        width: 100px; /* Adjust button width for mobile */
+        margin-left: 0; /* Center the button */
     }
 }

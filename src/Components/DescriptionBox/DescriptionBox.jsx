@@ -15,7 +15,6 @@ const DescriptionBox = () => {
             These websites facilitate various transactions, from browsing and selecting
             items to making secure payments and arranging for product delivery.
         </p>
-        
       </div>
     </div>
   )
